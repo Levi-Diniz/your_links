@@ -76,9 +76,6 @@ body * {
     width: 64px;
     margin: 20px auto;
 }
-
-
-
 #switch button {
     width: 32px;
     height: 32px;
@@ -99,12 +96,10 @@ body * {
     transform: translateY(-50%);
     animation: animacao-volta 0.4s;
 }
-
 .light #switch button {
 
     animation: animacao-ida 0.4s forwards;
 }
-
 #switch span {
     display: block;
     width: 64px;
@@ -120,9 +115,7 @@ body * {
     outline: 8px solid var(--text-color2);
 }
 
-
 /* lincks */
-
 ul{
     list-style: none;
     display: flex;
@@ -160,7 +153,6 @@ ul li:hover {
   
     font-size: 24px;
 }
-
 #social-links a {
     display: flex;
     padding: 16px;
@@ -168,16 +160,13 @@ ul li:hover {
     justify-content: center; /* alinha um item em uma linha imaginaria no centro do seu objeto no eixo Y */
 
 }
-
 #social-links a:hover{
     transition: background 0.2s;
     background-color: var(--text-color2);
     border-radius: 50%;
     /* border: solid 1px; */
 }
-
 /* @media min-width */
-
 @media (min-width: 700px) {
     :root {
         --bg-url: url(image/bg-desktop.jpg);
@@ -187,17 +176,14 @@ ul li:hover {
         --bg-url: url(image/bg-desktop-light.jpg);
     }
 }
-
 @keyframes animacao-ida {
     from {
         left: 0;
     }
     to {
         left: 50%;
-        
     }
 }
-
 @keyframes animacao-volta {
     from {
         left: 50%;
