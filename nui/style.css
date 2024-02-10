@@ -7,7 +7,7 @@
 
 :root {
     --text-color: white ;
-    --tex-color2: rgba(255, 255, 255, 0.247);
+    --text-color2: rgba(255, 255, 255, 0.247);
     --bg-url: url(/nui/image/bg-mobile.jpg) ;
     --switch-bgl-url: url(/nui/image/MoonStars.svg);
     
@@ -15,7 +15,7 @@
 
 .light {
     --text-color: rgb(0, 0, 0) ;
-    --tex-color2: rgba(0, 0, 0, 0.247);
+    --text-color2: rgba(0, 0, 0, 0.247);
     --bg-url: url(/nui/image/bg-mobile-light.jpg) ;
     --switch-bgl-url: url(/nui/image/Sun.svg);
     
@@ -65,8 +65,6 @@ body * {
     font-weight: 500;
     line-height: 24px;
     margin-top: 8px;
-    animation: animacao-volta 0.4s;
-
 }
 
 
@@ -74,13 +72,9 @@ body * {
 
 
 #switch{
-    /* border: 1px solid green; */
     position: relative;
     width: 64px;
-  
-    margin: 4px auto;
-    animation: animacao-volta 0.4s;
-
+    margin: 20px auto;
 }
 
 
@@ -107,8 +101,7 @@ body * {
 }
 
 .light #switch button {
-    /* right: 0; */
-    /* left: initial; */
+
     animation: animacao-ida 0.4s forwards;
 }
 
@@ -116,15 +109,15 @@ body * {
     display: block;
     width: 64px;
     height: 24px;
-    background-color: var(--tex-color2);
+    background-color: var(--text-color2);
     border: 1px solid var(--text-color);
     backdrop-filter: blur(4px);
     -webkit-backdrop-filter: blur(4px);
     border-radius: 9999px;
-
 }
 #switch button:hover {
     cursor: pointer;
+    outline: 8px solid var(--text-color2);
 }
 
 
@@ -135,8 +128,7 @@ ul{
     display: flex;
     flex-direction: column;
     gap: 16px;
-
-    padding: 24px 0;
+    padding: 8px 0;
 }
 ul li a{
     display: flex;
@@ -179,7 +171,7 @@ ul li:hover {
 
 #social-links a:hover{
     transition: background 0.2s;
-    background-color: var(--tex-color2);
+    background-color: var(--text-color2);
     border-radius: 50%;
     /* border: solid 1px; */
 }
