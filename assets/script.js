@@ -5,7 +5,7 @@ function toogleMode() {
     if(html.classList.contains("light")){
         image.setAttribute('src', "assets/image/levi_sem_fundo_com_borda_preta.png")
     } else {
-        image.setAttribute('src', "assets/image/Levi_sem_fundo.png")
+        image.setAttribute('src', "assets/image/levi_sem_fundo.png")
     }
 
     // if(html.classList.contains("light")){
