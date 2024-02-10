@@ -10,6 +10,7 @@
     --tex-color2: rgba(255, 255, 255, 0.247);
     --bg-url: url(/nui/image/bg-mobile.jpg) ;
     --switch-bgl-url: url(/nui/image/MoonStars.svg);
+    
 }
 
 .light {
@@ -17,6 +18,7 @@
     --tex-color2: rgba(0, 0, 0, 0.247);
     --bg-url: url(/nui/image/bg-mobile-light.jpg) ;
     --switch-bgl-url: url(/nui/image/Sun.svg);
+    
 }
 
 body{
@@ -46,6 +48,7 @@ body * {
     max-width: 588px;
     margin: 56px auto 0px;
     padding: 0 24px;
+    
 }
 
 /* profile */
@@ -62,6 +65,8 @@ body * {
     font-weight: 500;
     line-height: 24px;
     margin-top: 8px;
+    animation: animacao-volta 0.4s;
+
 }
 
 
@@ -74,12 +79,13 @@ body * {
     width: 64px;
   
     margin: 4px auto;
-    
+    animation: animacao-volta 0.4s;
+
 }
 
 
 
-#switch button{
+#switch button {
     width: 32px;
     height: 32px;
 
@@ -97,6 +103,13 @@ body * {
     left: 0;
     z-index: 1;
     transform: translateY(-50%);
+    animation: animacao-volta 0.4s;
+}
+
+.light #switch button {
+    /* right: 0; */
+    /* left: initial; */
+    animation: animacao-ida 0.4s forwards;
 }
 
 #switch span {
@@ -112,12 +125,6 @@ body * {
 }
 #switch button:hover {
     cursor: pointer;
-    
-}
-
-.light #switch button {
-    right: 0;
-    left: initial;
 }
 
 
@@ -186,5 +193,24 @@ ul li:hover {
     }
     .light {
         --bg-url: url(image/bg-desktop-light.jpg);
+    }
+}
+
+@keyframes animacao-ida {
+    from {
+        left: 0;
+    }
+    to {
+        left: 50%;
+        
+    }
+}
+
+@keyframes animacao-volta {
+    from {
+        left: 50%;
+    }
+    to {
+        left: 0;
     }
 }
