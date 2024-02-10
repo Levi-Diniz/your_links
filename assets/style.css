@@ -8,21 +8,21 @@
 :root {
     --text-color: white ;
     --text-color2: rgba(255, 255, 255, 0.247);
-    --bg-url: url(/nui/image/bg-mobile.jpg) ;
-    --switch-bgl-url: url(/nui/image/MoonStars.svg);
+    --bg-url: url(/assets/image/bg-mobile.jpg) ;
+    --switch-bgl-url: url(/assets/image/MoonStars.svg);
     
 }
 
 .light {
     --text-color: rgb(0, 0, 0) ;
     --text-color2: rgba(0, 0, 0, 0.247);
-    --bg-url: url(/nui/image/bg-mobile-light.jpg) ;
-    --switch-bgl-url: url(/nui/image/Sun.svg);
+    --bg-url: url(/assets/image/bg-mobile-light.jpg) ;
+    --switch-bgl-url: url(/assets/image/Sun.svg);
     
 }
 
 body{
-    /* background-image: url(/nui/image/bg-mobile.jpg);
+    /* background-image: url(/assets/image/bg-mobile.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover; */
