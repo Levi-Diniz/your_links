@@ -1,15 +1,13 @@
-<h1 align="center"> DevLinks </h1>
+<h1 align="center"> Biblioteca de Jogos </h1>
 
 <p align="center">
-Programa exclusivo e gratuito, promovido pela Rocketseat para ensino de tecnologias WEB. <br/>
-<a href="https://lp.rocketseat.com.br/devlinks/inscricao?utm_source=github&utm_medium=descricao&utm_campaign=capture-devlinks&utm_term=organic&utm_content=descricao-github-mayk-brito">Estude esse projeto em formato de vídeo clicando aqui.</a>
+Projeto criado por Levi Diniz para participar de um processo seletivo, desenvolvido com o objetivo de ser uma biblioteca de jogos online. <br/>
 </p>
 
 <p align="center">
-  <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#memo-licença">Licença</a>
+  <a href="#-tecnologias">🚀 Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-projeto">💻 Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#memo-licença">📝 Licença</a>
 </p>
 
 <p align="center">
@@ -19,34 +17,27 @@ Programa exclusivo e gratuito, promovido pela Rocketseat para ensino de tecnolog
 <br>
 
 <p align="center">
-  <img alt="projeto DevLinks" src=".github/preview.jpg" width="100%">
+  <img alt="projeto Biblioteca de Jogos" src="https://media.discordapp.net/attachments/1036087848593535057/1251290011480100894/image.png?ex=666e0a22&is=666cb8a2&hm=731e51c48edb4d1b8e4585db8eaf6e4a912fd5db8261aacfe8627569a56cbe27&=&format=webp&quality=lossless&width=550&height=235" width="100%">
 </p>
 
 ## 🚀 Tecnologias
 
 Esse projeto foi desenvolvido com as seguintes tecnologias:
 
-- HTML e CSS
-- JavaScript
-- Git e Github
-- Figma
+- React
+- CSS
+- React Router DOM
 
 ## 💻 Projeto
 
-O DevLinks é um agregador de links para usar como cartão de visitas online.
+A Biblioteca de Jogos é uma plataforma online que visa agregar diversos jogos em um único lugar. Atualmente, possui um jogo disponível:
 
-- [Acesse o projeto finalizado, online](https://maykbrito.github.io/devlinks)
+- **Desafio das Teclas**: Um jogo interativo que desafia os usuários a pressionarem as teclas corretas o mais rápido possível.
 
-- [Assistir aulas](https://lp.rocketseat.com.br/devlinks/inscricao?utm_source=github&utm_medium=descricao&utm_campaign=capture-devlinks&utm_term=organic&utm_content=descricao-github-mayk-brito)
-
-## 🔖 Layout
-
-Você pode visualizar o layout do projeto através [DESSE LINK](https://www.figma.com/community/file/1187422022288947321). É necessário ter conta no [Figma](https://figma.com) para acessá-lo.
-
-## :memo: Licença
+## 📝 Licença
 
 Esse projeto está sob a licença MIT.
 
 ---
 
-Feito com ♥ by Rocketseat :wave: [Participe da nossa comunidade!](https://discord.gg/rocketseat)
+Feito com ♥ por Levi Diniz :wave: [Participe da nossa comunidade!]([https://discord.gg/rocketseat](https://discord.gg/servidordosprogramadores))
